@@ -107,7 +107,7 @@
 
 <text x1="1656" x2="1768" y1="1048" y2="1070" align="center" color="TextButton" condition="not({TimerConflicts})" font="VDRSymbols Sans:Book@18" >T-CONFL</text>
 <blink x1="1656" x2="1768" y1="1048" y2="1070" align="center" color="TextSmallButton" delay="1000" condition="{TimerConflicts}" font="VDRSymbols Sans:Book@18" >T-CONFL</blink>
-<!--VIDEOSIZE--><text x1="1200" x2="1312" y1="1048" y2="1070" align="center" condition="lt({VideoSizeHeight},1080)" color="TextSmallButton" font="VDRSymbols Sans:Book@18">{VideoSizeWidth}x{VideoSizeHeight}</text>
+<!--VIDEOSIZE--><text x1="1200" x2="1312" y1="1048" y2="1070" align="center" condition="not(equal({VideoSizeHeight},1080))" color="TextSmallButton" font="VDRSymbols Sans:Book@18">{VideoSizeWidth}x{VideoSizeHeight}</text>
 <!--VIDEOSIZE--><text x1="1200" x2="1312" y1="1048" y2="1070" align="center" condition="equal({VideoSizeHeight},1080)" color="TextSmallButton" font="VDRSymbols Sans:Book@18">1920x1080</text>
 
 <text x1="1310" x2="1426" y1="1048" y2="1070" align="center" condition="{HasTeletext}" color="TextSmallButton" font="VDRSymbols Sans:Book@18">VTX</text>
