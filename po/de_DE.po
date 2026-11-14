@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: anthra_1920_FSt\n"
-"Report-Msgid-Bugs-To: <>\n"
-"POT-Creation-Date: 2011-11-20 16:52+0100\n"
-"PO-Revision-Date: 2011-11-20 16:55+0100\n"
+"Report-Msgid-Bugs-To: <https://github.com/unf/vdr-skin-anthra-fst/issues>\n"
+"POT-Creation-Date: 2026-11-14 14:48+0100\n"
+"PO-Revision-Date: 2026-11-14 15:30+0100\n"
 "Last-Translator: Tomas Saxer <tsaxer@gmx.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -61,14 +61,71 @@ msgstr "Lautstärke "
 msgid "Mute"
 msgstr "Stumm"
 
-#~ msgid "until"
-#~ msgstr "bis"
+msgid "Channel logos"
+msgstr "Senderlogos"
 
-#~ msgid "bis"
-#~ msgstr "until"
+msgid "Path of the channel logos"
+msgstr "Pfad der Senderlogos"
 
-#~ msgid "What's on now?"
-#~ msgstr "Was läuft jetzt?"
+msgid "Separator logos"
+msgstr "Trennerlogos"
 
-#~ msgid "What's on next?"
-#~ msgstr "Was läuft jetzt?"
+msgid "Path of the separator logos"
+msgstr "Pfad der Trennerlogos"
+
+msgid "Main menu logos"
+msgstr "Logos im Hauptmenü"
+
+msgid "Main menu font"
+msgstr "Schrift im Hauptmenü"
+
+msgid "Timer info in the main menu"
+msgstr "Timer-Info im Hauptmenü"
+
+msgid "Running recordings blink"
+msgstr "Laufende Aufnahmen blinken"
+
+msgid "EPG images (scraper)"
+msgstr "EPG-Bilder (Scraper)"
+
+msgid "Recording images (scraper)"
+msgstr "Aufnahmebilder (Scraper)"
+
+msgid "Signal display"
+msgstr "Signalanzeige"
+
+msgid "Scroll indicator"
+msgstr "Bildlaufanzeige"
+
+msgid "Divider between menu items"
+msgstr "Trennlinie zwischen Menüpunkten"
+
+msgid "right"
+msgstr "rechts"
+
+msgid "left"
+msgstr "links"
+
+msgid "none"
+msgstr "keine"
+
+msgid "default"
+msgstr "normal"
+
+msgid "small"
+msgstr "klein"
+
+msgid "large"
+msgstr "groß"
+
+msgid "graph"
+msgstr "Grafik"
+
+msgid "digit"
+msgstr "Zahlen"
+
+msgid "arrows"
+msgstr "Pfeile"
+
+msgid "bar"
+msgstr "Balken"

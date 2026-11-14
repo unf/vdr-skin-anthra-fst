@@ -1,5 +1,20 @@
 <?xml version="1.0"?>
-<skin version="1.1" name="anthra_1920_FSt-VERSION" screenBase="absolute">
+<skin version="1.2" name="anthra_FSt" screenBase="abs1920x1080">
+<options>
+	<option name="ChannelLogos" type="choice" values="right,left,none" default="right" title="Channel logos"/>
+	<option name="LogoPath" type="string" default="/var/lib/vdr/channellogos" title="Path of the channel logos"/>
+	<option name="SeparatorLogos" type="choice" values="right,left,none" default="right" title="Separator logos"/>
+	<option name="SeparatorLogoPath" type="string" default="../liquid-logos4separator" title="Path of the separator logos"/>
+	<option name="MenuLogos" type="bool" default="1" title="Main menu logos"/>
+	<option name="MenuFont" type="choice" values="default,small,large" default="default" title="Main menu font"/>
+	<option name="TimerInfo" type="bool" default="1" title="Timer info in the main menu"/>
+	<option name="RunningTimerBlink" type="bool" default="1" title="Running recordings blink"/>
+	<option name="EpgImages" type="bool" default="1" title="EPG images (scraper)"/>
+	<option name="RecordingImages" type="bool" default="1" title="Recording images (scraper)"/>
+	<option name="Signal" type="choice" values="graph,digit" default="graph" title="Signal display"/>
+	<option name="Scroll" type="choice" values="arrows,bar" default="arrows" title="Scroll indicator"/>
+	<option name="SubmenuDivider" type="bool" default="1" title="Divider between menu items"/>
+</options>
 	
 <!--Mon, 24 Mar 2014 07:58:20-->
 

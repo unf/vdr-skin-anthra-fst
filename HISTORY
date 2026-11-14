@@ -1,0 +1,23 @@
+anthra_FSt Revision History
+---------------------------
+
+2026-11-14: Version 1.0.0
+
+- Port of anthra_1920_FSt 20140324 by Tomas Saxer to text2skin 2.0 (skin
+  format 1.2) under the new name anthra_FSt.
+- screenBase abs1920x1080: the skin scales itself to the size of the OSD.
+- The build options of Make.config are options of the skin, set at runtime
+  in the setup menu of text2skin: channel logos and their path, separator
+  logos and their path, main menu logos, main menu font, timer info in the
+  main menu, blinking running recordings, EPG and recording images, signal
+  display, scroll indicator, divider between menu items.
+- EPG images and recording images from a scraper plugin (tokens
+  {PresentPoster} and {RecordingPoster}).
+- All windows true colour (bpp 32).
+- The video size is shown for UHD as well, the info line of a recording
+  reaches up to its image (both from the Debian package).
+- Makefile: the skin file is put together from xml/*.xml, directories from
+  vdr.pc, option titles and values in the translation template. Removed:
+  Make.config, the generated skin file, the old RelaxNG schema, compiled
+  translations.
+- Translations in UTF-8, options translated into de, es, fi, fr, it, nl.

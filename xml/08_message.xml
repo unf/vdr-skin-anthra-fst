@@ -1,5 +1,5 @@
 <display id="message">
-	<window x1="0" x2="1920" y1="987" y2="1055" bpp="8"/>
+	<window x1="0" x2="1920" y1="987" y2="1055" bpp="32"/>
 	
 		<block condition="or({MessageInfo},{MessageStatus},{MessageWarning},{MessageError})">
 			<image x1="0" x2="1920" y1="987" y2="1055" colors="64" path="images/message.png" />

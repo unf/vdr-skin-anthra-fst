@@ -1,5 +1,5 @@
 <display id="replaySmall">
-	<window x1="586" x2="1332" y1="1018" y2="1120" bpp="8"/>
+	<window x1="586" x2="1332" y1="1018" y2="1120" bpp="32"/>
 	
 		<image x1="586" x2="1332" y1="1018" y2="1120" path="images/recbarSmall.png"/>
 		<text condition="not({IsFastRewind})" x1="592" x2="713" y1="1032" y2="1059" align="center" color="DarkGrey" font="VDRSymbols Sans:Book@22">F.REW   </text>
